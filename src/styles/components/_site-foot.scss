@@ -1,0 +1,8 @@
+.site-foot {
+  background-color: var(--color-blue-900);
+
+  &__inner {
+    --aling: center;
+    --justify: space-between;
+  }
+}

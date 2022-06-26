@@ -1,0 +1,65 @@
+:root {
+  --family-primary: 'Plus Jakarta Sans', sans-serif;
+
+  --text-3xl: clamp(2.5rem, 2.185rem + 1.4vw, 3.5rem);
+  --text-2xl: 2rem;
+  --text-xl: 1.5rem;
+  --text-lg: 1.125rem;
+  --text-base: 1rem;
+
+  --text-bolder: 800;
+  --text-bold: 700;
+  --text-medium: 500;
+
+  --leading-3xl: 4.375rem;
+  --leading-2xl: 3.187rem;
+  --leading-xl: 2.5rem;
+  --leading-lg: 1.75rem;
+  --leading-none: 1;
+
+  --color-neutral-50: hsl(0, 0%, 100%);
+  --color-gray-400: hsl(232, 10%, 56%);
+  --color-red-400: hsl(341, 92%, 62%);
+  --color-red-300: hsl(341, 100%, 83%);
+  --color-blue-900: hsl(233, 54%, 16%);
+  --color-blue-400: hsl(234, 25%, 52%);
+  --gradient-1: linear-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%));
+  --gradient-2: linear-gradient(hsl(237, 100%, 64%), hsl(322, 87%, 55%));
+  --gradient-3: linear-gradient(hsl(0, 0%, 100%), hsl(236, 100%, 97%));
+
+  --spacing-base: 1rem;
+  --spacing-lg: 2.5rem;
+
+  --radius-small: 0.5rem;
+  --radius-large: 1.75rem;
+}
+
+body {
+  font-family: var(--family-primary);
+  line-height: var(--leading-lg);
+  background-color: var(--color-neutral-50);
+  color: var(--color-blue-900);
+}
+
+:where(h1, h2) {
+  font-weight: var(--text-bolder);
+}
+
+h1 {
+  font-size: var(--text-3xl);
+  line-height: var(--leading-2xl);
+}
+
+h2 {
+  font-size: var(--text-xl);
+}
+
+p {
+  color: var(--color-gray-400);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}

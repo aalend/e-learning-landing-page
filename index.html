@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Challenge from frontendmentor.io to improve my HTML and CSS skills"
+    />
+    <title>e-Learning Landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon-22x22.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/styles/main.scss" />
+  </head>
+  <body>
+    <header class="site-head">
+      <div class="site-head__inner container flex padding-block-base">
+        <a class="logo" href="#">
+          <img src="./src/images/logo-dark.svg" alt="skilled home" />
+        </a>
+        <button class="btn btn--secondary" type="button">Get started</button>
+      </div>
+    </header>
+    <main id="main-content" class="main-content" tabindex="-1">
+      <div class="main-content__inner">
+        <section class="hero" aria-label="hero section">
+          <div class="hero__inner container splitter">
+            <div class="hero__content flow">
+              <h1>Maximize skill, minimize budget</h1>
+              <p>
+                Our modern courses across a range of in-demand skills will give
+                you the knowledge you need to live the life you want.
+              </p>
+              <a class="btn btn--primary" href="#">Get started</a>
+            </div>
+            <div class="hero__image">
+              <picture>
+                <source
+                  media="(min-width: 992px)"
+                  srcset="./src/images/image-hero-desktop.webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./src/images/image-hero-tablet.webp"
+                />
+                <img src="./src/images/image-hero-mobile.webp" alt="" />
+              </picture>
+            </div>
+          </div>
+        </section>
+        <section class="courses" aria-label="courses">
+          <div class="courses__inner container grid padding-block-lg">
+            <article class="course gradient">
+              <div class="course__inner">
+                <h2>Check out our most popular courses!</h2>
+              </div>
+            </article>
+            <article class="course">
+              <div class="course__inner">
+                <img src="./src/images/icon-animation.svg" alt="" />
+                <div class="course__content flow">
+                  <h2>Animation</h2>
+                  <p>
+                    Learn the latest animation techniques to create stunning
+                    motion design and captivate your audience.
+                  </p>
+                  <a href="#">Get started</a>
+                </div>
+              </div>
+            </article>
+            <article class="course">
+              <div class="course__inner">
+                <img src="./src/images/icon-design.svg" alt="" />
+                <div class="course__content flow">
+                  <h2>Design</h2>
+                  <p>
+                    Create beautiful, usable interfaces to help shape the future
+                    of how the web looks.
+                  </p>
+                  <a href="#">Get started</a>
+                </div>
+              </div>
+            </article>
+            <article class="course">
+              <div class="course__inner">
+                <img src="./src/images/icon-photography.svg" alt="" />
+                <div class="course__content flow">
+                  <h2>Photography</h2>
+                  <p>
+                    Explore critical fundamentals like lighting, composition,
+                    and focus to capture exceptional photos.
+                  </p>
+                  <a href="#">Get started</a>
+                </div>
+              </div>
+            </article>
+            <article class="course">
+              <div class="course__inner">
+                <img src="./src/images/icon-crypto.svg" alt="" />
+                <div class="course__content flow">
+                  <h2>Crypto</h2>
+                  <p>
+                    All you need to know to get started investing in crypto. Go
+                    from beginner to advanced with this 54 hour course.
+                  </p>
+                  <a href="#">Get started</a>
+                </div>
+              </div>
+            </article>
+            <article class="course">
+              <div class="course__inner">
+                <img src="./src/images/icon-business.svg" alt="" />
+                <div class="course__content flow">
+                  <h2>Business</h2>
+                  <p>
+                    A step-by-step playbook to help you start, scale, and
+                    sustain your business without outside investment.
+                  </p>
+                  <a href="#">Get started</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-foot">
+      <div class="site-foot__inner container flex padding-block-lg">
+        <a class="logo" href="#">
+          <img src="./src/images/logo-light.svg" alt="skilled home" />
+        </a>
+        <button class="btn btn--tertiary" type="button">Get started</button>
+      </div>
+    </footer>
+  </body>
+</html>

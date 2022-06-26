@@ -1,0 +1,13 @@
+.splitter {
+  display: flex;
+  flex-direction: column;
+  align-items: var(--splitter-align);
+
+  & > * {
+    flex-basis: 100%;
+  }
+
+  @media (min-width: 48rem) {
+    flex-direction: row;
+  }
+}

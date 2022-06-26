@@ -1,0 +1,7 @@
+.hero {
+  --splitter-align: center;
+
+  &__content {
+    --flow-space: var(--spacing-lg);
+  }
+}

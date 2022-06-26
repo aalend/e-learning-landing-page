@@ -1,0 +1,26 @@
+.btn {
+  display: inline-block;
+  padding: 0.5rem var(--spacing-lg);
+  color: var(--color-neutral-50);
+  border: 0;
+  border-radius: var(--radius-large);
+  transition: opacity 75ms linear;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+
+  &--primary {
+    background: var(--gradient-1);
+  }
+
+  &--secondary {
+    background: var(--color-blue-900);
+  }
+
+  &--tertiary {
+    background: var(--gradient-2);
+  }
+}

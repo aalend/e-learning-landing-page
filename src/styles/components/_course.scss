@@ -1,0 +1,23 @@
+.course {
+  position: relative;
+  padding: var(--spacing-lg);
+  background-color: var(--color-neutral-50);
+  border-radius: var(--radius-small);
+
+  img {
+    position: absolute;
+    top: -28px;
+  }
+
+  &__content {
+    a {
+      color: var(--color-red-400);
+      font-weight: var(--text-bold);
+    }
+  }
+
+  &.gradient {
+    background: var(--gradient-1);
+    color: var(--color-neutral-50);
+  }
+}
