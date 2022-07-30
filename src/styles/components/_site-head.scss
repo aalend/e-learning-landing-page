@@ -1,4 +1,6 @@
 .site-head {
+  padding-block: var(--spacing-lg);
+
   &__inner {
     --align: center;
     --justify: space-between;
